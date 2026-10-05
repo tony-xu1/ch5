@@ -6,7 +6,7 @@ public class Fermat {
 		int n = 4;
 		double ans = Math.pow(a, n) + Math.pow(b, n);
 		
-		if (c > 2 && ans == Math.pow(c, n)){
+		if (n > 2 && ans == Math.pow(c, n)){
 			System.out.println("Holy smokes, Fermat was wrong!");
 		} else {
 			System.out.println("No, that doesn’t work.");
